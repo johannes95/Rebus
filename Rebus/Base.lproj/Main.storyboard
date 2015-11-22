@@ -22,14 +22,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="🌳-d🌟-stjär☔️-gn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ri7-ce-qlh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="🌳-d🌟-stjär☔️-gn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ri7-ce-qlh">
                                 <rect key="frame" x="127" y="92" width="346" height="48"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Din gissning" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XL0-U1-SIu">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Din gissning" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XL0-U1-SIu">
                                 <rect key="frame" x="160" y="211" width="281" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -39,13 +39,20 @@
                                 <rect key="frame" x="20" y="20" width="50" height="20"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="58.7" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWs-Ks-Cpj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="58.7" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWs-Ks-Cpj">
                                 <rect key="frame" x="505" y="28" width="75" height="24"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="😀" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BeJ-1N-hFI">
+                                <rect key="frame" x="268" y="15" width="64" height="64"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -53,18 +60,31 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ri7-ce-qlh" firstAttribute="leading" secondItem="BeJ-1N-hFI" secondAttribute="trailing" constant="-205" id="02F-XF-fo5"/>
                             <constraint firstItem="XL0-U1-SIu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1i3-kP-W9X"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XL0-U1-SIu" secondAttribute="trailing" constant="25" id="4aj-Ud-1qG"/>
                             <constraint firstItem="XL0-U1-SIu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="6Oa-li-9c6"/>
+                            <constraint firstItem="vWs-Ks-Cpj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="LKR-eB-0w5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vWs-Ks-Cpj" secondAttribute="trailing" id="Sh3-md-L2J"/>
+                            <constraint firstItem="ri7-ce-qlh" firstAttribute="top" secondItem="BeJ-1N-hFI" secondAttribute="bottom" constant="13" id="Sn2-Ez-1jK"/>
                             <constraint firstItem="ri7-ce-qlh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TUC-o2-3cf"/>
+                            <constraint firstItem="BeJ-1N-hFI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WR3-pM-xbf"/>
+                            <constraint firstItem="BeJ-1N-hFI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="ZWx-0e-09e"/>
+                            <constraint firstItem="ri7-ce-qlh" firstAttribute="top" secondItem="BeJ-1N-hFI" secondAttribute="top" constant="25" id="d13-l7-pHi"/>
                             <constraint firstItem="XL0-U1-SIu" firstAttribute="top" secondItem="ri7-ce-qlh" secondAttribute="bottom" constant="75" id="gtx-UP-IcT"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="02F-XF-fo5"/>
+                                <exclude reference="d13-l7-pHi"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="guessInput" destination="XL0-U1-SIu" id="17y-ah-ZXC"/>
                         <outlet property="guessingLabel" destination="ri7-ce-qlh" id="Si9-CR-stM"/>
                         <outlet property="score" destination="X4a-Eu-eAE" id="f2h-47-d0W"/>
+                        <outlet property="statusEmoji" destination="BeJ-1N-hFI" id="Wde-2Z-7sa"/>
                         <outlet property="timeLeft" destination="X4a-Eu-eAE" id="uvc-07-Ra7"/>
                     </connections>
                 </viewController>

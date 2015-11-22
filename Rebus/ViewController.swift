@@ -13,12 +13,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var score: UILabel!
     @IBOutlet weak var guessingLabel: UILabel!
     @IBOutlet weak var guessInput: UITextField!
+    @IBOutlet weak var statusEmoji: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        score.text = "7"
+        
     }
 
     override func didReceiveMemoryWarning() {
