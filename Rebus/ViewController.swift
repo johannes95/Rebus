@@ -14,9 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var guessingLabel: UILabel!
     @IBOutlet weak var guessInput: UITextField!
     @IBOutlet weak var statusEmoji: UILabel!
+    
     @IBOutlet weak var menuLogo: UIImageView!
     @IBOutlet weak var menuEmoji: UILabel!
-    @IBOutlet weak var menuPane: UIView!
+    @IBOutlet weak var infoBtn: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,11 +29,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        print("We're running out of memory")
     }
-
     
-    @IBAction func guessPressed(sender: AnyObject) {
-        //user has pressed guess
-    }
+    
+    
 }
 
