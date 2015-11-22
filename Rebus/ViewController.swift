@@ -88,13 +88,10 @@ class ViewController: UIViewController, ADBannerViewDelegate {
     }
     
     
-    @IBAction func guessInputChanged(sender: AnyObject) {
-        
-    }
-    
     
     @IBAction func guessPressed(sender: AnyObject) {
-        guessInput.resignFirstResponder()
+        guessInput.resignFirstResponder() //close keyboard
+        var userGuess: String!
     }
     
 }
