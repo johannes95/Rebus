@@ -14,6 +14,12 @@
 		E42607141C0133F00012162A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42607121C0133F00012162A /* LaunchScreen.storyboard */; };
 		E426071F1C0133F10012162A /* RebusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426071E1C0133F10012162A /* RebusTests.swift */; };
 		E426072A1C0133F10012162A /* RebusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42607291C0133F10012162A /* RebusUITests.swift */; };
+		E4EBF8661C01714B0074D06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF8651C01714B0074D06D /* AppDelegate.swift */; };
+		E4EBF8681C01714B0074D06D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF8671C01714B0074D06D /* ViewController.swift */; };
+		E4EBF86A1C01714B0074D06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EBF8691C01714B0074D06D /* Assets.xcassets */; };
+		E4EBF86D1C01714B0074D06D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EBF86B1C01714B0074D06D /* Main.storyboard */; };
+		E4EBF8781C01714B0074D06D /* Hello_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF8771C01714B0074D06D /* Hello_MacTests.swift */; };
+		E4EBF8831C01714B0074D06D /* Hello_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF8821C01714B0074D06D /* Hello_MacUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,20 @@
 			remoteGlobalIDString = E42607051C0133F00012162A;
 			remoteInfo = Rebus;
 		};
+		E4EBF8741C01714B0074D06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42606FE1C0133F00012162A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EBF8621C01714B0074D06D;
+			remoteInfo = "Hello Mac";
+		};
+		E4EBF87F1C01714B0074D06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42606FE1C0133F00012162A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4EBF8621C01714B0074D06D;
+			remoteInfo = "Hello Mac";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +67,18 @@
 		E42607251C0133F10012162A /* RebusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42607291C0133F10012162A /* RebusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebusUITests.swift; sourceTree = "<group>"; };
 		E426072B1C0133F10012162A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EBF8631C01714B0074D06D /* Hello Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EBF8651C01714B0074D06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4EBF8671C01714B0074D06D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4EBF8691C01714B0074D06D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4EBF86C1C01714B0074D06D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4EBF86E1C01714B0074D06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EBF8731C01714B0074D06D /* Hello MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EBF8771C01714B0074D06D /* Hello_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_MacTests.swift; sourceTree = "<group>"; };
+		E4EBF8791C01714B0074D06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EBF87E1C01714B0074D06D /* Hello MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EBF8821C01714B0074D06D /* Hello_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_MacUITests.swift; sourceTree = "<group>"; };
+		E4EBF8841C01714B0074D06D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +103,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4EBF8601C01714B0074D06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF8701C01714B0074D06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF87B1C01714B0074D06D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +133,9 @@
 				E42607081C0133F00012162A /* Rebus */,
 				E426071D1C0133F10012162A /* RebusTests */,
 				E42607281C0133F10012162A /* RebusUITests */,
+				E4EBF8641C01714B0074D06D /* Hello Mac */,
+				E4EBF8761C01714B0074D06D /* Hello MacTests */,
+				E4EBF8811C01714B0074D06D /* Hello MacUITests */,
 				E42607071C0133F00012162A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +146,9 @@
 				E42607061C0133F00012162A /* Rebus.app */,
 				E426071A1C0133F10012162A /* RebusTests.xctest */,
 				E42607251C0133F10012162A /* RebusUITests.xctest */,
+				E4EBF8631C01714B0074D06D /* Hello Mac.app */,
+				E4EBF8731C01714B0074D06D /* Hello MacTests.xctest */,
+				E4EBF87E1C01714B0074D06D /* Hello MacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +182,36 @@
 				E426072B1C0133F10012162A /* Info.plist */,
 			);
 			path = RebusUITests;
+			sourceTree = "<group>";
+		};
+		E4EBF8641C01714B0074D06D /* Hello Mac */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBF8651C01714B0074D06D /* AppDelegate.swift */,
+				E4EBF8671C01714B0074D06D /* ViewController.swift */,
+				E4EBF8691C01714B0074D06D /* Assets.xcassets */,
+				E4EBF86B1C01714B0074D06D /* Main.storyboard */,
+				E4EBF86E1C01714B0074D06D /* Info.plist */,
+			);
+			path = "Hello Mac";
+			sourceTree = "<group>";
+		};
+		E4EBF8761C01714B0074D06D /* Hello MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBF8771C01714B0074D06D /* Hello_MacTests.swift */,
+				E4EBF8791C01714B0074D06D /* Info.plist */,
+			);
+			path = "Hello MacTests";
+			sourceTree = "<group>";
+		};
+		E4EBF8811C01714B0074D06D /* Hello MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBF8821C01714B0074D06D /* Hello_MacUITests.swift */,
+				E4EBF8841C01714B0074D06D /* Info.plist */,
+			);
+			path = "Hello MacUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +270,59 @@
 			productReference = E42607251C0133F10012162A /* RebusUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E4EBF8621C01714B0074D06D /* Hello Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EBF88B1C01714B0074D06D /* Build configuration list for PBXNativeTarget "Hello Mac" */;
+			buildPhases = (
+				E4EBF85F1C01714B0074D06D /* Sources */,
+				E4EBF8601C01714B0074D06D /* Frameworks */,
+				E4EBF8611C01714B0074D06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello Mac";
+			productName = "Hello Mac";
+			productReference = E4EBF8631C01714B0074D06D /* Hello Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4EBF8721C01714B0074D06D /* Hello MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EBF88C1C01714B0074D06D /* Build configuration list for PBXNativeTarget "Hello MacTests" */;
+			buildPhases = (
+				E4EBF86F1C01714B0074D06D /* Sources */,
+				E4EBF8701C01714B0074D06D /* Frameworks */,
+				E4EBF8711C01714B0074D06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EBF8751C01714B0074D06D /* PBXTargetDependency */,
+			);
+			name = "Hello MacTests";
+			productName = "Hello MacTests";
+			productReference = E4EBF8731C01714B0074D06D /* Hello MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4EBF87D1C01714B0074D06D /* Hello MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EBF88D1C01714B0074D06D /* Build configuration list for PBXNativeTarget "Hello MacUITests" */;
+			buildPhases = (
+				E4EBF87A1C01714B0074D06D /* Sources */,
+				E4EBF87B1C01714B0074D06D /* Frameworks */,
+				E4EBF87C1C01714B0074D06D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EBF8801C01714B0074D06D /* PBXTargetDependency */,
+			);
+			name = "Hello MacUITests";
+			productName = "Hello MacUITests";
+			productReference = E4EBF87E1C01714B0074D06D /* Hello MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +344,17 @@
 						CreatedOnToolsVersion = 7.1.1;
 						TestTargetID = E42607051C0133F00012162A;
 					};
+					E4EBF8621C01714B0074D06D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E4EBF8721C01714B0074D06D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E4EBF8621C01714B0074D06D;
+					};
+					E4EBF87D1C01714B0074D06D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E4EBF8621C01714B0074D06D;
+					};
 				};
 			};
 			buildConfigurationList = E42607011C0133F00012162A /* Build configuration list for PBXProject "Rebus" */;
@@ -220,6 +373,9 @@
 				E42607051C0133F00012162A /* Rebus */,
 				E42607191C0133F10012162A /* RebusTests */,
 				E42607241C0133F10012162A /* RebusUITests */,
+				E4EBF8621C01714B0074D06D /* Hello Mac */,
+				E4EBF8721C01714B0074D06D /* Hello MacTests */,
+				E4EBF87D1C01714B0074D06D /* Hello MacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +399,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E42607231C0133F10012162A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF8611C01714B0074D06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EBF86A1C01714B0074D06D /* Assets.xcassets in Resources */,
+				E4EBF86D1C01714B0074D06D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF8711C01714B0074D06D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF87C1C01714B0074D06D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +456,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4EBF85F1C01714B0074D06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EBF8681C01714B0074D06D /* ViewController.swift in Sources */,
+				E4EBF8661C01714B0074D06D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF86F1C01714B0074D06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EBF8781C01714B0074D06D /* Hello_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4EBF87A1C01714B0074D06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EBF8831C01714B0074D06D /* Hello_MacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +493,16 @@
 			isa = PBXTargetDependency;
 			target = E42607051C0133F00012162A /* Rebus */;
 			targetProxy = E42607261C0133F10012162A /* PBXContainerItemProxy */;
+		};
+		E4EBF8751C01714B0074D06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EBF8621C01714B0074D06D /* Hello Mac */;
+			targetProxy = E4EBF8741C01714B0074D06D /* PBXContainerItemProxy */;
+		};
+		E4EBF8801C01714B0074D06D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4EBF8621C01714B0074D06D /* Hello Mac */;
+			targetProxy = E4EBF87F1C01714B0074D06D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,6 +521,14 @@
 				E42607131C0133F00012162A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E4EBF86B1C01714B0074D06D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EBF86C1C01714B0074D06D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -463,6 +685,100 @@
 			};
 			name = Release;
 		};
+		E4EBF8851C01714B0074D06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hello Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johannesflood.Hello-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4EBF8861C01714B0074D06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hello Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johannesflood.Hello-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4EBF8871C01714B0074D06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hello MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johannesflood.Hello-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello Mac.app/Contents/MacOS/Hello Mac";
+			};
+			name = Debug;
+		};
+		E4EBF8881C01714B0074D06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hello MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johannesflood.Hello-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello Mac.app/Contents/MacOS/Hello Mac";
+			};
+			name = Release;
+		};
+		E4EBF8891C01714B0074D06D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hello MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johannesflood.Hello-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Hello Mac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E4EBF88A1C01714B0074D06D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Hello MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johannesflood.Hello-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Hello Mac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -482,6 +798,7 @@
 				E42607301C0133F10012162A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E42607311C0133F10012162A /* Build configuration list for PBXNativeTarget "RebusTests" */ = {
 			isa = XCConfigurationList;
@@ -490,12 +807,38 @@
 				E42607331C0133F10012162A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E42607341C0133F10012162A /* Build configuration list for PBXNativeTarget "RebusUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E42607351C0133F10012162A /* Debug */,
 				E42607361C0133F10012162A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EBF88B1C01714B0074D06D /* Build configuration list for PBXNativeTarget "Hello Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EBF8851C01714B0074D06D /* Debug */,
+				E4EBF8861C01714B0074D06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4EBF88C1C01714B0074D06D /* Build configuration list for PBXNativeTarget "Hello MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EBF8871C01714B0074D06D /* Debug */,
+				E4EBF8881C01714B0074D06D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4EBF88D1C01714B0074D06D /* Build configuration list for PBXNativeTarget "Hello MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EBF8891C01714B0074D06D /* Debug */,
+				E4EBF88A1C01714B0074D06D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

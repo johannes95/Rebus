@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var guessingLabel: UILabel!
     @IBOutlet weak var guessInput: UITextField!
     @IBOutlet weak var statusEmoji: UILabel!
+    @IBOutlet weak var menuLogo: UIImageView!
+    @IBOutlet weak var menuEmoji: UILabel!
+    @IBOutlet weak var menuPane: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,5 +30,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func guessPressed(sender: AnyObject) {
+        //user has pressed guess
+    }
 }
 
