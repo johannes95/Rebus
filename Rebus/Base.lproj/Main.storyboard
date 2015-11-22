@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="XPB-pO-Zy2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="XPB-pO-Zy2">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                             </imageView>
@@ -64,6 +64,7 @@
                             <constraint firstItem="XL0-U1-SIu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1i3-kP-W9X"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XL0-U1-SIu" secondAttribute="trailing" constant="25" id="4aj-Ud-1qG"/>
                             <constraint firstItem="XL0-U1-SIu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="6Oa-li-9c6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XPB-pO-Zy2" secondAttribute="bottom" id="FJu-pO-271"/>
                             <constraint firstItem="vWs-Ks-Cpj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="LKR-eB-0w5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vWs-Ks-Cpj" secondAttribute="trailing" id="Sh3-md-L2J"/>
                             <constraint firstItem="ri7-ce-qlh" firstAttribute="top" secondItem="BeJ-1N-hFI" secondAttribute="bottom" constant="13" id="Sn2-Ez-1jK"/>
@@ -94,6 +95,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg" width="1242" height="2208"/>
+        <image name="bg" width="640" height="960"/>
     </resources>
 </document>
