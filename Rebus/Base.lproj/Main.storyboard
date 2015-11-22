@@ -34,6 +34,10 @@
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="experimenting:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="SmR-53-2zk"/>
+                                    <action selector="guessInputChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="QaE-Ix-ZmN"/>
+                                </connections>
                             </textField>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="container" translatesAutoresizingMaskIntoConstraints="NO" id="lPI-aT-wIw">
                                 <rect key="frame" x="20" y="21" width="93" height="53"/>
@@ -72,6 +76,9 @@
                                 <state key="normal" title="Gissa">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="guessPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="awP-Mb-VDN"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4a-Eu-eAE">
                                 <rect key="frame" x="27" y="30" width="78" height="34"/>
@@ -98,6 +105,9 @@
                                 <state key="normal" title="Spela">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="playBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DdW-Xd-Lgg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="519-PL-yYc">
                                 <rect key="frame" x="227" y="305" width="147" height="38"/>
@@ -107,13 +117,10 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Copyright Johannes Flood" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bma-qQ-jEx">
-                                <rect key="frame" x="119" y="559" width="334" height="21"/>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j1E-eY-orU">
+                                <rect key="frame" x="71" y="568" width="480" height="66"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </adBannerView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -129,6 +136,7 @@
                             <constraint firstItem="519-PL-yYc" firstAttribute="top" secondItem="MhG-9B-YkK" secondAttribute="bottom" constant="8" id="B5G-eF-Daf"/>
                             <constraint firstItem="ang-iY-avE" firstAttribute="top" secondItem="WO3-X3-1sf" secondAttribute="bottom" id="Ckk-iV-kGB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XPB-pO-Zy2" secondAttribute="bottom" id="FJu-pO-271"/>
+                            <constraint firstItem="j1E-eY-orU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GCo-uK-8gN"/>
                             <constraint firstItem="ang-iY-avE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="IeU-E9-6Y9"/>
                             <constraint firstItem="vWs-Ks-Cpj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="LKR-eB-0w5"/>
                             <constraint firstItem="MhG-9B-YkK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MwD-eN-WXx"/>
@@ -150,12 +158,11 @@
                             <constraint firstItem="V5A-BL-kzE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="eZp-I4-Xgt"/>
                             <constraint firstItem="ang-iY-avE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gLQ-ae-GWW"/>
                             <constraint firstItem="lPI-aT-wIw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gOI-yW-Dwa"/>
-                            <constraint firstItem="XL0-U1-SIu" firstAttribute="top" secondItem="ri7-ce-qlh" secondAttribute="bottom" constant="75" id="gtx-UP-IcT"/>
-                            <constraint firstItem="bma-qQ-jEx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="irQ-xE-F1t"/>
+                            <constraint firstItem="XL0-U1-SIu" firstAttribute="top" secondItem="ri7-ce-qlh" secondAttribute="bottom" constant="50" id="gtx-UP-IcT"/>
                             <constraint firstItem="MhG-9B-YkK" firstAttribute="leading" secondItem="ang-iY-avE" secondAttribute="trailing" constant="-101" id="jSI-rV-NN4"/>
                             <constraint firstItem="X4a-Eu-eAE" firstAttribute="centerX" secondItem="lPI-aT-wIw" secondAttribute="centerX" id="l7d-V5-3tf"/>
                             <constraint firstItem="519-PL-yYc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mDS-R5-EVE"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bma-qQ-jEx" secondAttribute="bottom" constant="20" id="ojP-0l-t6t"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="j1E-eY-orU" secondAttribute="bottom" id="mUO-22-zxQ"/>
                             <constraint firstItem="WO3-X3-1sf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="pXZ-Yy-ANp"/>
                             <constraint firstItem="WO3-X3-1sf" firstAttribute="top" secondItem="ang-iY-avE" secondAttribute="bottom" id="qvm-fY-fg7"/>
                             <constraint firstItem="MhG-9B-YkK" firstAttribute="leading" secondItem="ang-iY-avE" secondAttribute="trailing" constant="-101" id="rDE-tx-jcm"/>
@@ -183,13 +190,19 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="guessBtn" destination="g9r-12-d37" id="vu8-8Q-Qac"/>
                         <outlet property="guessInput" destination="XL0-U1-SIu" id="17y-ah-ZXC"/>
                         <outlet property="guessingLabel" destination="ri7-ce-qlh" id="Si9-CR-stM"/>
+                        <outlet property="iAdBanner" destination="j1E-eY-orU" id="eEZ-KT-uGo"/>
                         <outlet property="infoBtn" destination="519-PL-yYc" id="3eP-E9-72a"/>
                         <outlet property="menuEmoji" destination="ang-iY-avE" id="rFy-uW-bYR"/>
                         <outlet property="menuLogo" destination="WO3-X3-1sf" id="smx-gm-dIT"/>
+                        <outlet property="playBtn" destination="MhG-9B-YkK" id="atj-qn-96o"/>
                         <outlet property="score" destination="X4a-Eu-eAE" id="f2h-47-d0W"/>
+                        <outlet property="scoreContainer" destination="lPI-aT-wIw" id="irg-kw-per"/>
                         <outlet property="statusEmoji" destination="BeJ-1N-hFI" id="Wde-2Z-7sa"/>
+                        <outlet property="timeContainer" destination="V5A-BL-kzE" id="Cku-Rs-Zix"/>
+                        <outlet property="timeLabel" destination="vWs-Ks-Cpj" id="Bxk-Cv-oeo"/>
                         <outlet property="timeLeft" destination="X4a-Eu-eAE" id="uvc-07-Ra7"/>
                     </connections>
                 </viewController>
