@@ -35,17 +35,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" returnKeyType="done"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4a-Eu-eAE">
-                                <rect key="frame" x="20" y="20" width="50" height="20"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="container" translatesAutoresizingMaskIntoConstraints="NO" id="lPI-aT-wIw">
+                                <rect key="frame" x="12" y="12" width="74" height="53"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4a-Eu-eAE">
+                                <rect key="frame" x="20" y="20" width="60" height="33.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="58.7" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWs-Ks-Cpj">
-                                <rect key="frame" x="505" y="28" width="75" height="24"/>
+                                <rect key="frame" x="505" y="27" width="75" height="26.5"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -56,6 +60,14 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9r-12-d37">
+                                <rect key="frame" x="266" y="257" width="68" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Gissa">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -67,12 +79,14 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XPB-pO-Zy2" secondAttribute="bottom" id="FJu-pO-271"/>
                             <constraint firstItem="vWs-Ks-Cpj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="LKR-eB-0w5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vWs-Ks-Cpj" secondAttribute="trailing" id="Sh3-md-L2J"/>
-                            <constraint firstItem="ri7-ce-qlh" firstAttribute="top" secondItem="BeJ-1N-hFI" secondAttribute="bottom" constant="13" id="Sn2-Ez-1jK"/>
+                            <constraint firstItem="ri7-ce-qlh" firstAttribute="top" secondItem="BeJ-1N-hFI" secondAttribute="bottom" constant="20" id="Sn2-Ez-1jK"/>
                             <constraint firstItem="ri7-ce-qlh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TUC-o2-3cf"/>
                             <constraint firstItem="BeJ-1N-hFI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WR3-pM-xbf"/>
-                            <constraint firstItem="BeJ-1N-hFI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="ZWx-0e-09e"/>
+                            <constraint firstItem="g9r-12-d37" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZRs-RI-WGD"/>
+                            <constraint firstItem="BeJ-1N-hFI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="ZWx-0e-09e"/>
                             <constraint firstItem="ri7-ce-qlh" firstAttribute="top" secondItem="BeJ-1N-hFI" secondAttribute="top" constant="25" id="d13-l7-pHi"/>
                             <constraint firstItem="XL0-U1-SIu" firstAttribute="top" secondItem="ri7-ce-qlh" secondAttribute="bottom" constant="75" id="gtx-UP-IcT"/>
+                            <constraint firstItem="g9r-12-d37" firstAttribute="top" secondItem="XL0-U1-SIu" secondAttribute="bottom" constant="16" id="tOz-fl-VlN"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -96,5 +110,6 @@
     </scenes>
     <resources>
         <image name="bg" width="640" height="960"/>
+        <image name="container" width="200" height="80"/>
     </resources>
 </document>
