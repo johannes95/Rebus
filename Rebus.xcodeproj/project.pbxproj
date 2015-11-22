@@ -16,6 +16,7 @@
 		E426072A1C0133F10012162A /* RebusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42607291C0133F10012162A /* RebusUITests.swift */; };
 		E44FE6E41C01A83600A32A79 /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44FE6E31C01A83600A32A79 /* GameBrain.swift */; };
 		E44FE6E61C01A9F300A32A79 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44FE6E51C01A9F300A32A79 /* iAd.framework */; };
+		E44FE6E81C01D59800A32A79 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44FE6E71C01D59800A32A79 /* Level.swift */; };
 		E4EBF8661C01714B0074D06D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF8651C01714B0074D06D /* AppDelegate.swift */; };
 		E4EBF8681C01714B0074D06D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBF8671C01714B0074D06D /* ViewController.swift */; };
 		E4EBF86A1C01714B0074D06D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EBF8691C01714B0074D06D /* Assets.xcassets */; };
@@ -71,6 +72,7 @@
 		E426072B1C0133F10012162A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E44FE6E31C01A83600A32A79 /* GameBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBrain.swift; sourceTree = "<group>"; };
 		E44FE6E51C01A9F300A32A79 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		E44FE6E71C01D59800A32A79 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		E4EBF8631C01714B0074D06D /* Hello Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EBF8651C01714B0074D06D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4EBF8671C01714B0074D06D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				E426070B1C0133F00012162A /* ViewController.swift */,
 				E426070D1C0133F00012162A /* Main.storyboard */,
 				E44FE6E31C01A83600A32A79 /* GameBrain.swift */,
+				E44FE6E71C01D59800A32A79 /* Level.swift */,
 				E42607101C0133F00012162A /* Assets.xcassets */,
 				E42607121C0133F00012162A /* LaunchScreen.storyboard */,
 				E42607151C0133F00012162A /* Info.plist */,
@@ -444,6 +447,7 @@
 			files = (
 				E426070C1C0133F00012162A /* ViewController.swift in Sources */,
 				E44FE6E41C01A83600A32A79 /* GameBrain.swift in Sources */,
+				E44FE6E81C01D59800A32A79 /* Level.swift in Sources */,
 				E426070A1C0133F00012162A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

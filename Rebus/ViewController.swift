@@ -10,6 +10,8 @@ import UIKit
 import iAd
 
 class ViewController: UIViewController, ADBannerViewDelegate {
+    var gameBrain: GameBrain = GameBrain()
+    
     @IBOutlet var iAdBanner: ADBannerView?
     @IBOutlet weak var timeLeft: UILabel!
     @IBOutlet weak var score: UILabel!
@@ -34,9 +36,21 @@ class ViewController: UIViewController, ADBannerViewDelegate {
         
         
     }
+    
+    
+    //start the game
     @IBAction func playBtnPressed(sender: AnyObject) {
-        showMenu(false)
-        showGame(true)
+        showMenu(false) // hide menu
+        showGame(true) // show game screen
+        
+        
+        //get current level object
+        var currentLevelObject: Level;
+        currentLevelObject = gameBrain.loadCurrentLevel()
+        
+        //display the data to the user
+        self.guessingLabel.text = currentLevelObject.rebus
+        self.score.text = "\(currentLevelObject.level)"
     }
 
     override func didReceiveMemoryWarning() {
@@ -72,12 +86,10 @@ class ViewController: UIViewController, ADBannerViewDelegate {
         guessBtn.hidden = !visible
         
     }
-    @IBAction func experimenting(sender: AnyObject) {
-        print("touch up inside")
-    }
+    
+    
     @IBAction func guessInputChanged(sender: AnyObject) {
-        print(guessInput.text)
-        guessInput.text = "JoJo"
+        
     }
     
     
